@@ -35,8 +35,8 @@ KusabaX suffers from reflected XSS vulnerability that can be exploited to steal 
 
 27-04-2011 | [Advisory](https://github.com/epinna/advisories/blob/master/kusaba_x_XSS_CSRF/kusaba-x-advisory.txt) | Status: Fixed in 0.9.2
 
-### Fastweb Myfastpage XSS and security bypass
+### Fastweb XSS and Myfastpage Authentication Security Bypass
 
 Fastweb website suffer from an XSS vulnerability that allows the cookie of the authentication token. This token can be exploited to access to the account control panels bypassing the proper authentication and IP checks.
 
-03-06-2010 | [Advisory (ITA](https://github.com/epinna/advisories/blob/master/fastweb_myfastpage_XSS_security_bypass/fastweb_myfastpage_advisory.pdf) | Status: Fixed
+03-06-2010 | [Advisory (ITA)](https://github.com/epinna/advisories/blob/master/fastweb_myfastpage_XSS_security_bypass/fastweb_myfastpage_advisory.pdf) | Status: Fixed
