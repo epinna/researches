@@ -8,7 +8,7 @@ Security advisories I've published in the latest years.
 
 VMTurbo Operations Manager appliance can be exploited by an unauthenticated attacker to execute unauthenticated arbitrary remote commands.
 
-25-07-2014 | [CVE-2014-5073](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-5073) | [Original advisory](https://github.com/epinna/advisories/blob/master/CVE-2014-5073/secunia_advisory.txt) | [Advisory details](http://disse.cting.org/2014/07/30/vmturbo-operation-manager-remote-command-execution/) | [metasploit](https://github.com/epinna/advisories/blob/master/CVE-2014-5073/vmturbo_vmtadmin_exec_noauth.rb) | Status: Fixed in 4.6-28657
+25-07-2014 | [CVE-2014-5073](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-5073) | [Original advisory](https://github.com/epinna/advisories/blob/master/CVE-2014-5073/secunia_advisory.txt) | [Advisory details](http://disse.cting.org/2014/07/30/vmturbo-operation-manager-remote-command-execution/) | [Metasploit Module](https://github.com/epinna/advisories/blob/master/CVE-2014-5073/vmturbo_vmtadmin_exec_noauth.rb) | Status: Fixed in 4.6-28657
 
 ### Moodle PHP Object Injection Leads to XSS and File Deletion
 
