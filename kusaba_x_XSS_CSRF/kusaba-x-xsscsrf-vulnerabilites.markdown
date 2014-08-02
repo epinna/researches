@@ -1,27 +1,3 @@
----
-comments: true
-date: 2011-05-12 21:42:09
-layout: post.html
-slug: kusaba-x-xsscsrf-vulnerabilites
-title: Kusaba X CSRF XSS vulnerabilites
-wordpress_id: 1031
-categories:
-- Pentesting
-- Security
-- Vulnerabilities
-- Web Apps
-tags:
-- /b/
-- 4chan
-- advisory
-- csrf
-- hacking
-- security
-- sql injection
-- vulnerability
-- xss
----
-
 Ultimamente mi affascina il penetration testing di applicazioni web, scoperto in ritardo visto il mio retaggio primi anni 2000, più dedicato ad *nix, raw sockets e C. Armato di un buon proxy server per il pentest web mi sono dedicato all'auditing di alcune web applications di mia conoscenza.
 
 ## Kusaba X e le imageboard
