@@ -2,8 +2,6 @@
 
 Una buona fetta degli utenti ADSL italiani sono a rischio intercettazione di comunicazioni internet e telefoniche, a causa di una **grave vulnerabilità** presente nei modelli di router Telecom ADSL Alice Gate VoIP 2 Plus Wi-Fi e ADSL2+ Wi-Fi N.
 
-![Alice Gate Voip 2 Plus Wi-Fi and Alice ADSL2+ Wi-Fi N](http://disse.cting.org/images/alice.png)
-
 # Impatto
 
 Un utente Telecom Italia che visita una pagina web appositamente preparata permette a un malintenzionato di prendere il **completo controllo** del router in maniera **permanente**, esponendo all'attaccante esterno il traffico privato internet e voce fino a che non si effettua esplicitamente il reset delle configurazioni di fabbrica. Alcuni attacchi possibili una volta preso il controllo del router sono:
@@ -26,7 +24,7 @@ Automatizzare l'**attacco su larga scala** è semplice: l'attaccante pubblica un
 
 > Leggi l'[articolo tecnico](http://disse.cting.org//2012/09/02/alice-gate-agpf-csrf-reconf-vulnerability-details/) su questo difetto e su come si utilizza per personalizzare il proprio router e sbloccare le sue funzionalità nascoste.
 
-> Leggi il paragrafo dell'[articolo tecnico](http://disse.cting.org/2012/09/02/alice-gate-agpf-csrf-reconf-vulnerability-details/) }}#CSRF ) sulla tecnica CSRF utilizzata per prendere il controllo di un router altrui.
+> Leggi il paragrafo dell'[articolo tecnico](http://disse.cting.org/2012/09/02/alice-gate-agpf-csrf-reconf-vulnerability-details/) sulla tecnica CSRF utilizzata per prendere il controllo di un router altrui.
 
 <blockquote class="blockwarn"> <p> <a href="http://disse.cting.org/codes/alice.html">Usa il dimostratore per verificare se il tuo router Alice è vulnerabile, proteggerlo e sbloccare le funzionalità nascoste</a> </p></blockquote>
 
