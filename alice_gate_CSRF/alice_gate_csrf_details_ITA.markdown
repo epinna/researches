@@ -2,7 +2,7 @@
 
 Una buona fetta degli utenti ADSL italiani sono a rischio intercettazione di comunicazioni internet e telefoniche, a causa di una **grave vulnerabilità** presente nei modelli di router Telecom ADSL Alice Gate VoIP 2 Plus Wi-Fi e ADSL2+ Wi-Fi N.
 
-![Alice Gate Voip 2 Plus Wi-Fi and Alice ADSL2+ Wi-Fi N]( {{ get_asset("/images/alice.png") }})
+![Alice Gate Voip 2 Plus Wi-Fi and Alice ADSL2+ Wi-Fi N](http://disse.cting.org/images/alice.png)
 
 # Impatto
 
@@ -15,7 +15,7 @@ Un utente Telecom Italia che visita una pagina web appositamente preparata perme
 
 Il numero di utenti che posseggono il router coinvolto è imponente: secondo la [relazione](http://2011annualreport.telecomitalia.com/attachments/RelazioneFinanziariaAnnuale-2011-GruppoTI.pdf) finanziaria annuale di Telecom Italia, gli utenti broadband sono circa 9 milioni. Sui sette modelli di router ADSL distribuiti nella storia di Alice, tre sono stati distribuiti massicciamente negli ultimi cinque anni: Alice Gate VoIP 2 plus Wi-Fi (firmware AGPF, vulnerabile), Alice Gate2 plus Wi-Fi e l'ultimo ADSL2+ Wi-Fi N (AGPWI, vulnerabile). Anche andando cauti con la stima, il numero di possessori del router vulnerabile è molto alto.
 
-<blockquote class="blockwarn"> <p>Lo studio sulla sicurezza dell'apparato è da intendersi a scopo didattico. Verificate la sicurezza del vostro router e proteggetelo utilizzando il <a href="{{ base_url }}/codes/alice.html">dimostratore</a> pubblicato. L'autore non è responsabile di danni agli apparati o violazioni a sistemi informatici derivanti dall'uso delle tecniche esposte. Ricordo che l'accesso abusivo ad un sistema informatico e perseguibile secondo l'articolo 615-ter del codice penale.
+<blockquote class="blockwarn"> <p>Lo studio sulla sicurezza dell'apparato è da intendersi a scopo didattico. Verificate la sicurezza del vostro router e proteggetelo utilizzando il <a href="http://disse.cting.org/codes/alice.html">dimostratore</a> pubblicato. L'autore non è responsabile di danni agli apparati o violazioni a sistemi informatici derivanti dall'uso delle tecniche esposte. Ricordo che l'accesso abusivo ad un sistema informatico e perseguibile secondo l'articolo 615-ter del codice penale.
 </p></blockquote>
 
 # vulnerabilità
@@ -24,9 +24,9 @@ La vulnerabilità risiede nel pannello di controllo del router: effettuando una 
 
 Automatizzare l'**attacco su larga scala** è semplice: l'attaccante pubblica una pagina HTML che cambia il DNS per intercettare le connessioni e effettuare phishing, e espone la interfaccia web/telnet del modem ADSL verso internet mantenendo il controllo del router nel tempo con un DNS dinamico. Pubblicando il link a questa pagina in un sito molto trafficato creerebbe in poche ore una **botnet** di migliaia di router sotto il controllo dell'attaccante, con conseguenze molto gravi. 
 
-> Leggi l'[articolo tecnico]({{get_url("/2012/09/02/alice-gate-agpf-csrf-reconf-vulnerability-details/")}}) su questo difetto e su come si utilizza per personalizzare il proprio router e sbloccare le sue funzionalità nascoste.
+> Leggi l'[articolo tecnico](http://disse.cting.org//2012/09/02/alice-gate-agpf-csrf-reconf-vulnerability-details/) su questo difetto e su come si utilizza per personalizzare il proprio router e sbloccare le sue funzionalità nascoste.
 
-> Leggi il paragrafo dell'[articolo tecnico]( {{ get_url("/2012/09/02/alice-gate-agpf-csrf-reconf-vulnerability-details/") }}#CSRF ) sulla tecnica CSRF utilizzata per prendere il controllo di un router altrui.
+> Leggi il paragrafo dell'[articolo tecnico](http://disse.cting.org/2012/09/02/alice-gate-agpf-csrf-reconf-vulnerability-details/) }}#CSRF ) sulla tecnica CSRF utilizzata per prendere il controllo di un router altrui.
 
-<blockquote class="blockwarn"> <p> <a href="{{ base_url }}/codes/alice.html">Usa il dimostratore per verificare se il tuo router Alice è vulnerabile, proteggerlo e sbloccare le funzionalità nascoste</a> </p></blockquote>
+<blockquote class="blockwarn"> <p> <a href="http://disse.cting.org/codes/alice.html">Usa il dimostratore per verificare se il tuo router Alice è vulnerabile, proteggerlo e sbloccare le funzionalità nascoste</a> </p></blockquote>
 

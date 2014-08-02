@@ -1,4 +1,4 @@
-> Questo post fa parte della serie di articoli sulla vulnerabilità CSRF dei router [Alice]({{ get_url("/tags/alice/") }}), leggi l'[articolo introduttivo]({{ get_url("/2012/09/02/alice-gate-agpf-csrf-reconf-vulnerability") }}).
+> Questo post fa parte della serie di articoli sulla vulnerabilità CSRF dei router [Alice](http://disse.cting.org/tags/alice/), leggi l'[articolo introduttivo](http://disse.cting.org/2012/09/02/alice-gate-agpf-csrf-reconf-vulnerability).
 
 > Aggiornamento 12/2012: La vulnerabilità CSRF è stata mitigata abilitando la richiesta di password per accedere al pannello di amministrazione. La tecnica per sbloccare le funzionalità nascoste del proprio router rimane comunque valida.
 
@@ -14,7 +14,7 @@ Dei tanti metodi trovati per lo sblocco dei router, quello qui esposto è per or
 
 I router AGPF e AGPWI prodotti dalla Pirelli Broadband Solution/ADB BROADBAND e distribuiti dalla Telecom sotto i rispettivi nomi di Gate VoIP 2 Plus Wifi e Adsl2+ Wi-Fi N, monta un kernel Linux con middleware [openrg](http://www.jungo.com/openrg/news/pr071009b.html) per la gestione di gateway, servizi, interfacce utente, etc. Il *cuore* del sistema è descritto dal file di configurazione `discus.conf`, derivato dal `openrg.conf` dei sistemi openrg vanilla, descritto da una sintassi particolare come si notare da alcuni [file](http://beghiero.myftp.org/modifiche/Discus2.conf) pubblicati in rete. 
 
-La tecnica HTTP POST è impiegata per sbloccare funzionalità nascoste sul router nel [dimostratore]( {{ base_url }}/codes/alice.html ) che ho pubblicato.
+La tecnica HTTP POST è impiegata per sbloccare funzionalità nascoste sul router nel [dimostratore]( http://disse.cting.org/codes/alice.html ) che ho pubblicato.
 
 ## Discus.conf
 
