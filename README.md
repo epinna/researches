@@ -37,6 +37,6 @@ KusabaX suffers from reflected XSS vulnerability that can be exploited to steal 
 
 ### Fastweb XSS and Myfastpage Authentication Security Bypass
 
-Fastweb website suffer from an XSS vulnerability that allows the cookie of the authentication token. This token can be exploited to access to the account control panels bypassing the proper authentication and IP checks.
+Fastweb website suffers from an XSS vulnerability that can be exploited to steal the authentication token. This can be exploited to access to the Fastweb account control panels bypassing the proper authentication and IP checks.
 
 03-06-2010 | [Advisory (ITA)](https://github.com/epinna/advisories/blob/master/fastweb_myfastpage_XSS_security_bypass/fastweb_myfastpage_advisory.pdf) | Status: Fixed
