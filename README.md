@@ -4,7 +4,7 @@ Advisories
 Security Advisories and Researches
 
 
-### VMTurbo Operations Remote Command Execution
+## VMTurbo Operations Remote Command Execution
 
 VMTurbo Operations Manager appliance can be exploited by an unauthenticated attacker to execute unauthenticated arbitrary remote commands.
 
