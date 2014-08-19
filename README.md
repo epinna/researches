@@ -12,7 +12,7 @@ VMTurbo Operations Manager appliance can be exploited by an unauthenticated atta
 
 ### Moodle XSS and File Deletion exploiting a PHP object injection
 
-Moodle CMS can be exploited passing unsanitized user-supplied input to the PHP unserialize() function and can be exploited to delete arbitrary files and to conduct reflected XSS attacks.
+Moodle CMS passes the unsanitized user-supplied input to the PHP unserialize() function and can be exploited to delete arbitrary files and to conduct reflected XSS attacks.
 
 16-09-2013 | [CVE-2013-5674](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-5674) | [Advisory](https://github.com/epinna/advisories/blob/master/CVE-2013-5674/2013-09-16-moodle-2_5_0_1-badges-external-object-injection.markdown) | Status: Fixed in 2.5.2
 
