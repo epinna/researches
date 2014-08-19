@@ -24,7 +24,7 @@ Joomla core suffers from reflected XSS vulnerability that can be exploited to st
 
 ### Alice Gate CSRF Reconfiguration Security Bypass
 
-The ADSL routers Telecom ADSL Alice Gate VoIP 2 Plus Wi-Fi and ADSL2+ Wi-Fi N suffer from a CSRF attack that can be exploited to manipulate internal configuration and e.g. replace DNS addresses, open the telnet service to the WAN side, change the traffic routing, reconfigure the VoIP, etc. leading to a complete takeover of the system and the LAN. Can be also exploited to enable hidden administrative features.
+The ADSL routers Telecom ADSL Alice Gate VoIP 2 Plus Wi-Fi and ADSL2+ Wi-Fi N suffer from a CSRF attack that can be exploited to manipulate internal configuration and e.g. replace DNS addresses, open the telnet service to the WAN side, change the traffic routing, reconfigure the VoIP, etc. leading to a complete takeover of the system and the LAN. This can also be exploited to enable hidden administrative features.
 
 02-09-2012 | [Main advisory (ITA)](https://github.com/epinna/advisories/blob/master/alice_gate_CSRF/alice_gate_csrf_ITA.markdown) | [Technical advisory (ITA)](https://github.com/epinna/advisories/blob/master/alice_gate_CSRF/alice_gate_csrf_details_ITA.markdown) | Status: Mitigated in next versions.
 
